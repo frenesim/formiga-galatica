@@ -3,6 +3,7 @@ description: Consultoria de informática para pequenas empresas. Menos papelada,
 url: "https://formiga.galaticos.pt"
 baseurl: ""
 lang: pt-PT
+timezone: Europe/Lisbon
 
 company:
   legal_name: "FORMIGAGALÁCTICA – CONSULTORIA INFORMÁTICA LDA"
