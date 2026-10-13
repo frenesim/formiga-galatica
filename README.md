@@ -4,7 +4,7 @@ Jekyll site for FORMIGAGALÁCTICA – Consultoria Informática, Lda. Deployed to
 
 ```sh
 bundle install
-bundle exec jekyll serve --livereload   # http://localhost:4000/formiga-galatica/
+bundle exec jekyll serve --livereload   # http://localhost:4000/
 ```
 
 - PT pages at `/`, EN pages under `/en/` (`alt_url` front matter links the pair).
