@@ -1,0 +1,17 @@
+---
+layout: default
+lang: pt
+title: Notas
+permalink: /notas/
+---
+{% assign t = site.data.i18n.pt %}
+<div class="wrap prose">
+  <h1>Notas</h1>
+  <p class="lead">Textos curtos sobre informática para quem não gosta de informática.</p>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><span class="meta">{{ post.date | date: "%d/%m/%Y" }}</span></li>
+    {% endfor %}
+  </ul>
+</div>
+{% include contact.html t=t %}

@@ -1,0 +1,38 @@
+pt:
+  home_url: /
+  diag_url: /diagnostico-gratuito/
+  notes_url: /notas/
+  other_lang: en
+  nav_diag: Diagnóstico grátis
+  nav_notes: Notas
+  nav_contact: Contacto
+  cta_call: Marcar conversa gratuita
+  contact_title: Vamos conversar?
+  contact_lead: 30 minutos, sem compromisso. Conte-me o que lhe tira tempo no dia a dia e eu digo-lhe, com franqueza, se e como posso ajudar.
+  contact_other: Prefere de outra forma?
+  wa_text: Olá Humberto, gostava de falar sobre a informática da minha empresa.
+  form_title: Ou deixe uma mensagem
+  form_subject: Novo contacto pelo site Formiga Galática
+  form_name: Nome
+  form_contact: Email ou telemóvel
+  form_msg: Em que podemos ajudar?
+  form_send: Enviar
+en:
+  home_url: /en/
+  diag_url: /en/free-diagnostic/
+  notes_url: /notas/
+  other_lang: pt
+  nav_diag: Free diagnostic
+  nav_notes: Notes (PT)
+  nav_contact: Contact
+  cta_call: Book a free call
+  contact_title: Shall we talk?
+  contact_lead: 30 minutes, no strings attached. Tell me what eats up your day and I'll tell you honestly whether and how I can help.
+  contact_other: Prefer another way?
+  wa_text: Hi Humberto, I'd like to talk about my company's IT.
+  form_title: Or leave a message
+  form_subject: New contact from the Formiga Galática website
+  form_name: Name
+  form_contact: Email or phone
+  form_msg: How can we help?
+  form_send: Send

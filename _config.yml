@@ -1,0 +1,27 @@
+title: Formiga Galática
+description: Consultoria de informática para pequenas empresas. Menos papelada, menos programas caros, ferramentas que ficam suas.
+url: "https://frenesim.github.io"
+baseurl: "/formiga-galatica"
+lang: pt-PT
+
+company:
+  legal_name: "FORMIGAGALÁCTICA – CONSULTORIA INFORMÁTICA LDA"
+  nipc: "516978772"
+  city: Almada
+  email: humberto@galaticos.pt
+  phone: "+351 910 193 681"
+  whatsapp: "351910193681"
+  calendly: "https://calendly.com/humberto-pinto1"
+  linkedin: "https://www.linkedin.com/in/humbertopinto/"
+
+permalink: /notas/:title/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

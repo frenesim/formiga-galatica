@@ -1,0 +1,14 @@
+{%- assign t = include.t -%}
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{ t.home_url | relative_url }}"><span aria-hidden="true">🐜</span> Formiga Galática</a>
+    <nav>
+      <a href="{{ t.diag_url | relative_url }}">{{ t.nav_diag }}</a>
+      <a href="{{ t.notes_url | relative_url }}">{{ t.nav_notes }}</a>
+      <a href="#contacto">{{ t.nav_contact }}</a>
+      {%- if page.alt_url %}
+      <a class="lang" href="{{ page.alt_url | relative_url }}" hreflang="{{ t.other_lang }}">{{ t.other_lang | upcase }}</a>
+      {%- endif %}
+    </nav>
+  </div>
+</header>
