@@ -5,6 +5,7 @@ pt:
   other_lang: en
   nav_diag: Diagnóstico grátis
   nav_notes: Notas
+  nav_work: Trabalho
   nav_contact: Contacto
   cta_call: Marcar conversa gratuita
   contact_title: Vamos conversar?
@@ -24,6 +25,7 @@ en:
   other_lang: pt
   nav_diag: Free diagnostic
   nav_notes: Notes (PT)
+  nav_work: Work
   nav_contact: Contact
   cta_call: Book a free call
   contact_title: Shall we talk?
