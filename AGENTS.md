@@ -10,7 +10,7 @@ Website for FORMIGAGALÁCTICA – Consultoria Informática, Lda (brand: **Formig
 
 - **Never make assumptions about what readers like, know or feel.** No "most people don't care about computers", "for people who don't like IT", "you don't need to understand…", "you'll be surprised". Describe concrete problems, what we do and what the client gets, and let readers decide how it applies to them.
 - Plain language, no jargon: say "programas que paga todos os meses", not "SaaS"; "ferramenta feita à medida", not "custom software".
-- Portuguese is European Portuguese (PT-PT) and uses the formal "você / o seu" register. English mirrors the Portuguese.
+- Portuguese is European Portuguese (PT-PT). **Never use "você"** (reads as PT-BR or distant): drop the pronoun and use "o seu", third-person verbs and imperatives ("marque", "fale connosco"). English mirrors the Portuguese.
 - Keep claims verifiable: portfolio facts come from the real projects (no features that aren't built yet).
 - Every PT page has an EN twin linked through `alt_url` front matter.
 
