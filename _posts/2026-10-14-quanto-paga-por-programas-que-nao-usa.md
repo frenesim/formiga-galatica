@@ -19,7 +19,7 @@ Some tudo e multiplique por 12.
 
 ## O que costumamos encontrar
 
-Em muitas pequenas empresas, o resultado surpreende. É comum encontrar:
+Em muitas pequenas empresas, é comum encontrar:
 
 - Programas pagos por utilizador, para pessoas que já saíram da empresa.
 - Dois ou três programas que fazem quase a mesma coisa.
