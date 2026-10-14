@@ -7,6 +7,15 @@
   <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
+  {%- if page.alt_url %}
+  {%- if page.lang == "en" %}{% assign pt_url = page.alt_url %}{% assign en_url = page.url %}{% else %}{% assign pt_url = page.url %}{% assign en_url = page.alt_url %}{% endif %}
+  <link rel="alternate" hreflang="pt-PT" href="{{ pt_url | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ pt_url | absolute_url }}">
+  {%- endif %}
+  {%- if page.url == "/" or page.url == "/en/" %}
+  {% include schema.html %}
+  {%- endif %}
 </head>
 <body>
   {% include header.html t=t %}

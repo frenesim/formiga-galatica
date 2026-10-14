@@ -1,10 +1,11 @@
 ---
 layout: page
 lang: en
+locale: en_GB
 alt_url: /diagnostico-gratuito/
 title: Free diagnostic
 permalink: /en/free-diagnostic/
-description: A no-strings conversation to find where your business loses time and money on IT.
+description: Free IT diagnostic for small businesses in Almada, Seixal and Setúbal. A no-strings conversation to find where your business loses time and money.
 ---
 
 <p class="lead">Before we propose anything, we want to understand how your business works. This first step is <strong>free and with no commitment</strong>.</p>

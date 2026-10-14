@@ -1,0 +1,52 @@
+---
+layout: null
+sitemap: false
+---
+# Formiga Galática
+
+> Consultoria informática em Almada (Charneca da Caparica), Portugal, para pequenas empresas da Margem Sul e do distrito de Setúbal. Cria ferramentas de software feitas à medida que substituem folhas de Excel, papelada e mensalidades de programas, com entrega em semanas e preço fechado. A ferramenta fica propriedade do cliente.
+
+IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, delivered in weeks at a fixed price. The client owns the tool.
+
+## Empresa / Company
+
+- Nome legal: {{ site.company.legal_name }}
+- NIPC: {{ site.company.nipc }}
+- Morada: {{ site.company.street }}, {{ site.company.postal_code }} {{ site.company.locality }}, {{ site.company.city }}, Portugal
+- Área de atuação: Almada, Seixal, Barreiro, Setúbal, Sesimbra, Lisboa (presencial) e todo o país (remoto)
+- Línguas: português, inglês
+- Fundador: Humberto Pinto — formado em Matemática (Universidade NOVA de Lisboa), mais de 20 anos entre banca e desenvolvimento de software (Ruby on Rails), ex-engenheiro de software na Intruder (cibersegurança).
+
+## Para quem / Who it's for
+
+- Escritórios e serviços: contabilistas, advogados, clínicas, imobiliárias — recolha de documentos, marcações, fichas de clientes, relatórios.
+- Oficinas e obras: construção, reparações, manutenção, pequenas fábricas — orçamentos, acompanhamento de obras, horas e materiais, do orçamento à fatura.
+- Alojamento local: gestão de reservas, limpezas, comunicação de hóspedes à AIMA.
+
+## Como trabalha / How it works
+
+1. Diagnóstico gratuito e sem compromisso.
+2. Proposta com preço fechado e prazo.
+3. Entrega rápida, em ciclos curtos (semanas).
+4. A ferramenta fica do cliente, sem mensalidades obrigatórias por utilizador; manutenção opcional.
+
+## Projetos / Portfolio
+
+- Agile Booking (desde 2015): gestão de alojamento local — reservas do Airbnb lidas automaticamente dos emails, calendários sincronizados, dados de hóspedes e comunicação à AIMA, tarefas criadas por IA a partir de mensagens de Telegram. https://agilebooking.fly.dev/
+- Tekclean (desde 2020): gestão comercial à medida para uma empresa de equipamentos de limpeza industrial — dados da empresa a partir do NIF, oportunidades, agenda no calendário, propostas e contratos. Organiza a agenda diária da empresa.
+- Galáticos: plataforma de torneios de padel. https://galaticos.pt
+
+## Contacto / Contact
+
+- Marcar conversa gratuita: {{ site.company.calendly }}
+- Email: {{ site.company.email }}
+- Telefone / WhatsApp: {{ site.company.phone }}
+- LinkedIn: {{ site.company.linkedin }}
+
+## Páginas / Pages
+
+- [Início (PT)]({{ '/' | absolute_url }})
+- [Home (EN)]({{ '/en/' | absolute_url }})
+- [Diagnóstico gratuito]({{ '/diagnostico-gratuito/' | absolute_url }})
+- [Free diagnostic]({{ '/en/free-diagnostic/' | absolute_url }})
+- [Notas / Blog]({{ '/notas/' | absolute_url }})
