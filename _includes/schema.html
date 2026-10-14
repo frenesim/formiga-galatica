@@ -1,0 +1,51 @@
+{%- assign c = site.company -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "@id": "{{ '/#business' | absolute_url }}",
+  "name": "Formiga Galática",
+  "legalName": {{ c.legal_name | jsonify }},
+  "taxID": "{{ c.nipc }}",
+  "vatID": "PT{{ c.nipc }}",
+  "url": "{{ '/' | absolute_url }}",
+  "logo": "{{ '/assets/og-image.png' | absolute_url }}",
+  "image": "{{ '/assets/og-image.png' | absolute_url }}",
+  "description": {{ site.description | jsonify }},
+  "email": "{{ c.email }}",
+  "telephone": "{{ c.phone | remove: ' ' }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ c.street | jsonify }},
+    "postalCode": "{{ c.postal_code }}",
+    "addressLocality": {{ c.locality | jsonify }},
+    "addressRegion": "Setúbal",
+    "addressCountry": "PT"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": {{ c.lat }}, "longitude": {{ c.lon }} },
+  "openingHours": "{{ c.hours }}",
+  "areaServed": [
+    {"@type": "City", "name": "Almada"},
+    {"@type": "City", "name": "Seixal"},
+    {"@type": "City", "name": "Barreiro"},
+    {"@type": "City", "name": "Setúbal"},
+    {"@type": "City", "name": "Sesimbra"},
+    {"@type": "City", "name": "Lisboa"}
+  ],
+  "knowsLanguage": ["pt-PT", "en"],
+  "priceRange": "€€",
+  "founder": {
+    "@type": "Person",
+    "name": "Humberto Pinto",
+    "jobTitle": "Fundador",
+    "sameAs": ["{{ c.linkedin }}"]
+  },
+  "sameAs": ["{{ c.linkedin }}"],
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Diagnóstico informático gratuito", "url": "{{ '/diagnostico-gratuito/' | absolute_url }}"}, "price": "0", "priceCurrency": "EUR"},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Desenvolvimento de software à medida para pequenas empresas"}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Consultoria informática e redução de custos com software"}}
+  ],
+  "potentialAction": {"@type": "ReserveAction", "target": "{{ c.calendly }}", "name": "Marcar conversa gratuita"}
+}
+</script>

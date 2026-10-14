@@ -1,14 +1,21 @@
 title: Formiga Galática
-description: Consultoria de informática para pequenas empresas. Menos papelada, menos programas caros, ferramentas que ficam suas.
+description: Consultoria informática em Almada para pequenas empresas da Margem Sul e Setúbal. Ferramentas feitas à medida, menos papelada, menos mensalidades. Diagnóstico gratuito.
 url: "https://formiga.galaticos.pt"
 baseurl: ""
 lang: pt-PT
+locale: pt_PT
 timezone: Europe/Lisbon
 
 company:
   legal_name: "FORMIGAGALÁCTICA – CONSULTORIA INFORMÁTICA LDA"
   nipc: "516978772"
   city: Almada
+  street: Rua Rogério Paulo, 14
+  postal_code: 2820-505
+  locality: Charneca da Caparica
+  lat: 38.644
+  lon: -9.197
+  hours: "Mo-Fr 09:00-18:00"
   email: humberto@galaticos.pt
   phone: "+351 910 193 681"
   whatsapp: "351910193681"
@@ -28,3 +35,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og-image.png

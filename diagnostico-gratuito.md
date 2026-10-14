@@ -4,7 +4,7 @@ lang: pt
 alt_url: /en/free-diagnostic/
 title: Diagnóstico gratuito
 permalink: /diagnostico-gratuito/
-description: Uma conversa sem compromisso para perceber onde a sua empresa perde tempo e dinheiro com informática.
+description: Diagnóstico informático gratuito para pequenas empresas em Almada, Seixal e Setúbal. Uma conversa sem compromisso para perceber onde a empresa perde tempo e dinheiro.
 ---
 
 <p class="lead">Antes de propormos qualquer coisa, queremos perceber como a sua empresa trabalha. Este primeiro passo é <strong>gratuito e sem compromisso</strong>.</p>

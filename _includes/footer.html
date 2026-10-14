@@ -2,7 +2,8 @@
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>{{ site.company.legal_name }}</strong><br>
-    NIPC {{ site.company.nipc }} · {{ site.company.city }}, Portugal</p>
+    NIPC {{ site.company.nipc }}<br>
+    {{ site.company.street }}, {{ site.company.postal_code }} {{ site.company.locality }} ({{ site.company.city }}), Portugal</p>
     <p><a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a> · <a href="tel:{{ site.company.phone | remove: ' ' }}">{{ site.company.phone }}</a> · <a href="{{ site.company.linkedin }}">LinkedIn</a></p>
   </div>
 </footer>
