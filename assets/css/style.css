@@ -7,9 +7,13 @@
   --accent-ink: #fff;
   --mark: #ffe066;
   --line: #e4e0d8;
+  --band-bg: #111;
+  --band-ink: #fff;
+  --band-mark: #ffe066;
+  --band-mark-ink: #111;
 }
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --ink: #f2f0eb;
     --muted: #b5b0a6;
     --bg: #141414;
@@ -18,7 +22,25 @@
     --accent-ink: #141414;
     --mark: #6b5a00;
     --line: #333;
+    --band-bg: #b9b5ac;
+    --band-ink: #141414;
+    --band-mark: #e3c243;
+    --band-mark-ink: #141414;
   }
+}
+:root[data-theme="dark"] {
+  --ink: #f2f0eb;
+  --muted: #b5b0a6;
+  --bg: #141414;
+  --soft: #1e1d1b;
+  --accent: #ff7a3d;
+  --accent-ink: #141414;
+  --mark: #6b5a00;
+  --line: #333;
+  --band-bg: #b9b5ac;
+  --band-ink: #141414;
+  --band-mark: #e3c243;
+  --band-mark-ink: #141414;
 }
 
 * { box-sizing: border-box; }
@@ -37,10 +59,18 @@ mark { background: var(--mark); color: inherit; padding: 0 .15em; }
 /* Header */
 .site-header { border-bottom: 1px solid var(--line); }
 .bar { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: space-between; padding-top: 1rem; padding-bottom: 1rem; }
-.brand { font-weight: 800; color: var(--ink); text-decoration: none; font-size: 1.15rem; }
-nav { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: 1rem; }
+.brand { display: inline-flex; align-items: center; gap: .5rem; line-height: 1; font-weight: 800; color: var(--ink); text-decoration: none; font-size: 1.15rem; }
+.brand img { display: block; }
+.logo-dark { display: none !important; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .logo-dark { display: block !important; } :root:not([data-theme="light"]) .logo-light { display: none; } }
+:root[data-theme="dark"] .logo-dark { display: block !important; }
+:root[data-theme="dark"] .logo-light { display: none; }
+nav { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem 1rem; font-size: 1rem; }
 nav a { color: var(--ink); text-decoration: none; }
 nav a:hover { color: var(--accent); }
+nav .theme { display: inline-flex; align-items: center; color: var(--ink); background: none; border: 2px solid var(--ink); border-radius: 4px; padding: .2rem .4rem; cursor: pointer; }
+nav .theme:hover { border-color: var(--accent); color: var(--accent); }
+nav .theme svg { display: block; }
 nav .lang { font-weight: 700; border: 2px solid var(--ink); border-radius: 4px; padding: 0 .4rem; }
 
 /* Type */
@@ -117,7 +147,7 @@ form input:focus, form textarea:focus { outline: none; border-color: var(--accen
 .work li { margin-bottom: .4rem; }
 
 /* Second slogan band */
-.slogan { background: var(--ink); color: var(--bg); padding: 4.5rem 0; }
+.slogan { background: var(--band-bg); color: var(--band-ink); padding: 4.5rem 0; }
 .slogan-q { font-size: clamp(1.2rem, 3vw, 1.5rem); margin: 0 0 .75rem; opacity: .8; }
 .slogan-a { font-size: clamp(1.9rem, 5.5vw, 3rem); font-weight: 900; line-height: 1.15; letter-spacing: -0.02em; margin: 0; }
-.slogan mark { background: #ffe066; color: #111; }
+.slogan mark { background: var(--band-mark); color: var(--band-mark-ink); }

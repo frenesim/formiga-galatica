@@ -7,6 +7,7 @@ pt:
   nav_notes: Notas
   nav_work: Trabalho
   nav_contact: Contacto
+  theme_toggle: Mudar entre tema claro e escuro
   cta_call: Marcar conversa gratuita
   contact_title: Vamos conversar?
   contact_lead: 30 minutos, sem compromisso. Conte-me o que lhe tira tempo no dia a dia e eu digo-lhe, com franqueza, se e como posso ajudar.
@@ -27,6 +28,7 @@ en:
   nav_notes: Notes (PT)
   nav_work: Work
   nav_contact: Contact
+  theme_toggle: Switch between light and dark theme
   cta_call: Book a free call
   contact_title: Shall we talk?
   contact_lead: 30 minutes, no strings attached. Tell me what eats up your day and I'll tell you honestly whether and how I can help.
