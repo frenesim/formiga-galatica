@@ -25,6 +25,6 @@ Track status in [PROGRESS.md](PROGRESS.md).
 
 ## Ground rules
 
-- Same name, address, phone and website everywhere (NAP consistency): **Formiga Galática** · humberto@galaticos.pt · +351 910 193 681 · https://formiga.galaticos.pt
+- Same name, address, phone and website everywhere (NAP consistency): **Formiga Galática** · humberto@galaticos.pt · +351 911 045 538 · https://formiga.galaticos.pt
 - Copy follows the writing rules in `AGENTS.md` (no assumptions about readers, PT-PT without "você", verifiable claims only).
 - No doorway pages: every location or sector page must have content specific to it.

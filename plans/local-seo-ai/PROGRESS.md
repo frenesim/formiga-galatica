@@ -12,10 +12,11 @@ Status: `todo` · `doing` · `done` · `blocked`
 
 ## Blockers
 
-- **Phone +351 910 193 681 doesn't receive calls, SMS or WhatsApp messages** (reported 2026-10-14). It's a digital SIM (eSIM) used for a WhatsApp Business account; sending works, receiving doesn't. The number is published on every page (contact section, footer, JSON-LD, `llms.txt`) and Google Business Profile may verify by phone/SMS. See task in `02-get-listed.md`.
+- ~~**Phone +351 910 193 681 doesn't receive calls, SMS or WhatsApp messages** (reported 2026-10-14). It's a digital SIM (eSIM) used for a WhatsApp Business account; sending works, receiving doesn't. The number is published on every page (contact section, footer, JSON-LD, `llms.txt`) and Google Business Profile may verify by phone/SMS. See task in `02-get-listed.md`.~~ Resolved 2026-10-21: site now uses +351 911 045 538.
 
 ## Log
 
+- 2026-10-21 — Phone/WhatsApp changed to +351 911 045 538 across the site and plan; phone blocker closed (pending end-to-end test of the new number).
 - 2026-10-14 — Plan created. Baseline audit: GPTBot/ClaudeBot blocked (403) by Cloudflare; no local signals in metadata.
 
 - 2026-10-14 — Phase 1 site changes: ProfessionalService JSON-LD (address, geo, areaServed, founder, offers), local titles/descriptions, hreflang PT/EN/x-default, og:locale pt_PT/en_GB, og:image, `llms.txt`, `robots.txt`, address in footer. GPTBot/ClaudeBot still 403 (Cloudflare).
