@@ -87,7 +87,34 @@ permalink: /en/
   </div>
 </section>
 
-<section id="trabalho">
+<section class="alt" id="diagnostico">
+  <div class="wrap">
+    <h2>Free diagnostic</h2>
+    <p class="lead">Before we propose anything, we want to understand how your business works. This first step is <strong>free and with no commitment</strong>.</p>
+    <ul>
+      <li><strong>Where you lose time:</strong> repeated tasks, paperwork, information typed in several places.</li>
+      <li><strong>What you pay for software:</strong> which subscriptions you have, how many people use them and what they actually use.</li>
+      <li><strong>What already works:</strong> we don't change what doesn't need changing.</li>
+    </ul>
+    <p>At the end, you get a short summary with the 2 or 3 problems costing you the most, what we suggest for each and, if you decide to go ahead, a fixed price and a deadline.</p>
+    <p><a class="button" href="{{ site.company.calendly }}" target="_blank" rel="noopener">{{ t.cta_call }} →</a> <a href="{{ t.diag_url | relative_url }}">Learn more →</a></p>
+  </div>
+</section>
+
+<section id="notas">
+  <div class="wrap">
+    <h2>Notes</h2>
+    <p class="lead">Short, plain-language texts about IT in small businesses. For now they are written in Portuguese.</p>
+    <ul class="posts">
+      {%- for post in site.posts limit: 3 %}
+      <li><a href="{{ post.url | relative_url }}" hreflang="pt">{{ post.title }}</a><br><span class="meta">{{ post.date | date: "%d/%m/%Y" }}</span> · {{ post.description }}</li>
+      {%- endfor %}
+    </ul>
+    <p><a href="{{ t.notes_url | relative_url }}" hreflang="pt">All notes (PT) →</a></p>
+  </div>
+</section>
+
+<section class="alt" id="trabalho">
   <div class="wrap">
     <h2>Work we've done</h2>
     <p class="lead">Not mock-ups. Tools that small businesses use every day.</p>
@@ -128,7 +155,7 @@ permalink: /en/
   </div>
 </section>
 
-<section class="alt">
+<section>
   <div class="wrap">
     <h2>Who's behind it</h2>
     <p>I'm <strong>Humberto Pinto</strong>, founder of Formiga Galática. I studied Mathematics at NOVA University of Lisbon and have spent over 20 years working between business and software.</p>

@@ -57,7 +57,11 @@ mark { background: var(--mark); color: inherit; padding: 0 .15em; }
 .wrap { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
 
 /* Header */
-.site-header { border-bottom: 1px solid var(--line); }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+section[id] { scroll-margin-top: 6rem; }
+@media (max-width: 640px) { section[id] { scroll-margin-top: 10rem; } }
+.site-header { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--line); }
 .bar { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; align-items: center; justify-content: space-between; padding-top: 1rem; padding-bottom: 1rem; }
 .brand { display: inline-flex; align-items: center; gap: .5rem; line-height: 1; font-weight: 800; color: var(--ink); text-decoration: none; font-size: 1.15rem; }
 .brand img { display: block; }
