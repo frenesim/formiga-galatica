@@ -1,7 +1,7 @@
 ---
 layout: post
 lang: pt
-title: Orçamentos: quanto tempo demora cada passo?
+title: "Orçamentos: quanto tempo demora cada passo?"
 description: Um exercício para descobrir onde se perde o tempo ao fazer orçamentos e o que se pode deixar de repetir.
 ---
 
