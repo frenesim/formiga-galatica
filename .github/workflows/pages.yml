@@ -3,6 +3,8 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 6 * * *'   # daily, so future-dated notes go live on their date
   workflow_dispatch:
 
 permissions:
