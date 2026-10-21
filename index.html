@@ -84,7 +84,34 @@ title: Consultoria informática em Almada e Setúbal para pequenas empresas
   </div>
 </section>
 
-<section id="trabalho">
+<section class="alt" id="diagnostico">
+  <div class="wrap">
+    <h2>Diagnóstico grátis</h2>
+    <p class="lead">Antes de propormos qualquer coisa, queremos perceber como a sua empresa trabalha. Este primeiro passo é <strong>gratuito e sem compromisso</strong>.</p>
+    <ul>
+      <li><strong>Onde perde tempo:</strong> tarefas repetidas, papelada, informação escrita várias vezes.</li>
+      <li><strong>Quanto paga em programas:</strong> que mensalidades tem, quantas pessoas as usam e o que usam de facto.</li>
+      <li><strong>O que já funciona bem:</strong> não mudamos o que não precisa de ser mudado.</li>
+    </ul>
+    <p>No fim, recebe um resumo simples com os 2 ou 3 problemas que mais lhe custam, o que propomos para cada um e, se decidir avançar, um preço fechado e um prazo.</p>
+    <p><a class="button" href="{{ site.company.calendly }}" target="_blank" rel="noopener">{{ t.cta_call }} →</a> <a href="{{ t.diag_url | relative_url }}">Saiba mais →</a></p>
+  </div>
+</section>
+
+<section id="notas">
+  <div class="wrap">
+    <h2>Notas</h2>
+    <p class="lead">Textos curtos, em linguagem simples, sobre informática nas pequenas empresas.</p>
+    <ul class="posts">
+      {%- for post in site.posts limit: 3 %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><span class="meta">{{ post.date | date: "%d/%m/%Y" }}</span> · {{ post.description }}</li>
+      {%- endfor %}
+    </ul>
+    <p><a href="{{ t.notes_url | relative_url }}">Ver todas as notas →</a></p>
+  </div>
+</section>
+
+<section class="alt" id="trabalho">
   <div class="wrap">
     <h2>Trabalho feito</h2>
     <p class="lead">Não são maquetes. São ferramentas que pequenas empresas usam todos os dias.</p>
@@ -125,7 +152,7 @@ title: Consultoria informática em Almada e Setúbal para pequenas empresas
   </div>
 </section>
 
-<section class="alt">
+<section>
   <div class="wrap">
     <h2>Quem está por trás</h2>
     <p>Chamo-me <strong>Humberto Pinto</strong> e sou o fundador da Formiga Galática. Formei-me em Matemática na Universidade NOVA de Lisboa e trabalho há mais de 20 anos entre o negócio e a informática.</p>

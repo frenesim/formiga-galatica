@@ -3,8 +3,8 @@
   <div class="wrap bar">
     <a class="brand" href="{{ t.home_url | relative_url }}"><img class="logo-light" src="{{ '/assets/brand/icon-soft.svg' | relative_url }}" alt="" width="36" height="36"><img class="logo-dark" src="{{ '/assets/brand/icon-ink.svg' | relative_url }}" alt="" width="36" height="36"> Formiga Galática</a>
     <nav>
-      <a href="{{ t.diag_url | relative_url }}">{{ t.nav_diag }}</a>
-      <a href="{{ t.notes_url | relative_url }}">{{ t.nav_notes }}</a>
+      <a href="{{ t.home_url | relative_url }}#diagnostico">{{ t.nav_diag }}</a>
+      <a href="{{ t.home_url | relative_url }}#notas">{{ t.nav_notes }}</a>
       <a href="{{ t.home_url | relative_url }}#trabalho">{{ t.nav_work }}</a>
       <a href="#contacto">{{ t.nav_contact }}</a>
       {%- if page.alt_url %}
