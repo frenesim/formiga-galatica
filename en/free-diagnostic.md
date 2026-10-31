@@ -3,7 +3,7 @@ layout: page
 lang: en
 locale: en_GB
 alt_url: /diagnostico-gratuito/
-title: Free diagnostic
+title: Free IT diagnostic in Almada, Portugal
 permalink: /en/free-diagnostic/
 description: Free IT diagnostic for small businesses in Almada, Seixal and Setúbal. A no-strings conversation to find where your business loses time and money.
 ---

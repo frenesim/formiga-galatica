@@ -1,6 +1,6 @@
 {%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.pt -%}
 <!doctype html>
-<html lang="{{ page.lang | default: 'pt' }}">
+<html lang="{% if page.lang == 'en' %}en{% else %}pt-PT{% endif %}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +9,7 @@
   <link rel="apple-touch-icon" href="{{ '/assets/brand/png/icon-orange-180.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
+  {% feed_meta %}
   {%- if page.alt_url %}
   {%- if page.lang == "en" %}{% assign pt_url = page.alt_url %}{% assign en_url = page.url %}{% else %}{% assign pt_url = page.url %}{% assign en_url = page.alt_url %}{% endif %}
   <link rel="alternate" hreflang="pt-PT" href="{{ pt_url | absolute_url }}">

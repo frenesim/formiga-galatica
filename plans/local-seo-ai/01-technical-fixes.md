@@ -4,7 +4,7 @@ Make the site readable by AI crawlers and tell search engines it's a local busin
 
 ## Tasks
 
-- [ ] **Unblock AI crawlers in Cloudflare** (Humberto). Cloudflare dashboard → `galaticos.pt` → Security → Bots / AI Crawl Control: turn off "Block AI bots" (or allow GPTBot, ClaudeBot, OAI-SearchBot, Claude-SearchBot, Google-Extended, PerplexityBot, Applebot).
+- [x] **Unblock AI crawlers in Cloudflare** (Humberto) — done 2026-10-31, GPTBot and ClaudeBot return 200. Cloudflare dashboard → `galaticos.pt` → Security → Bots / AI Crawl Control: turn off "Block AI bots" (or allow GPTBot, ClaudeBot, OAI-SearchBot, Claude-SearchBot, Google-Extended, PerplexityBot, Applebot).
   Verify: `curl -s -o /dev/null -w "%{http_code}" -A "GPTBot" https://formiga.galaticos.pt/` returns 200 (same for ClaudeBot).
 - [x] **LocalBusiness structured data** (Claude). `ProfessionalService` JSON-LD in the layout: legal name, NIPC (`taxID`), address or service area, `areaServed` (Almada, Seixal, Barreiro, Setúbal, Sesimbra, Lisboa), phone, email, opening hours, founder (Person, `sameAs` LinkedIn), `sameAs` links, `knowsLanguage` pt/en.
   Needs: address decision + opening hours (see open questions).
@@ -19,7 +19,7 @@ Make the site readable by AI crawlers and tell search engines it's a local busin
 ## Decisions
 
 - Public address (from eInforma, NIPC 516978772): Rua Rogério Paulo, 14, 2820-505 Charneca da Caparica, Almada. Stored in `company:` in `_config.yml`; shown in footer, JSON-LD and `llms.txt`.
-- Opening hours: **Mon–Fri 09:00–18:00 — placeholder, awaiting Humberto's confirmation** (`company.hours`).
+- Opening hours: **Mon–Fri 09:00–18:00**, confirmed by Humberto 2026-10-31 (`company.hours`).
 
 ## Notes
 
