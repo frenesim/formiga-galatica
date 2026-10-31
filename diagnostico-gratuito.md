@@ -2,7 +2,7 @@
 layout: page
 lang: pt
 alt_url: /en/free-diagnostic/
-title: Diagnóstico gratuito
+title: Diagnóstico informático gratuito em Almada
 permalink: /diagnostico-gratuito/
 description: Diagnóstico informático gratuito para pequenas empresas em Almada, Seixal e Setúbal. Uma conversa sem compromisso para perceber onde a empresa perde tempo e dinheiro.
 ---

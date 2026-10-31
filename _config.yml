@@ -1,6 +1,8 @@
 title: Formiga Galática
 description: Consultoria informática em Almada para pequenas empresas da Margem Sul e Setúbal. Ferramentas feitas à medida, menos papelada, menos mensalidades. Diagnóstico gratuito.
 url: "https://formiga.galaticos.pt"
+author:
+  name: Humberto Pinto
 baseurl: ""
 lang: pt-PT
 locale: pt_PT
@@ -25,6 +27,7 @@ company:
 permalink: /notas/:title/
 
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 

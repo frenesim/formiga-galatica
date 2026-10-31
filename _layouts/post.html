@@ -2,8 +2,19 @@
 layout: default
 ---
 {% assign t = site.data.i18n[page.lang] | default: site.data.i18n.pt %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Formiga Galática", "item": "{{ '/' | absolute_url }}"},
+    {"@type": "ListItem", "position": 2, "name": {{ t.nav_notes | jsonify }}, "item": "{{ t.notes_url | absolute_url }}"},
+    {"@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }}}
+  ]
+}
+</script>
 <article class="wrap prose">
-  <p class="meta">{{ page.date | date: "%d/%m/%Y" }}</p>
+  <p class="meta"><a href="{{ t.notes_url | relative_url }}">← {{ t.nav_notes }}</a> · {{ page.date | date: "%d/%m/%Y" }}</p>
   <h1>{{ page.title }}</h1>
   {{ content }}
 </article>
