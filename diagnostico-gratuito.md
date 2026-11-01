@@ -4,27 +4,25 @@ lang: pt
 alt_url: /en/free-diagnostic/
 title: Diagnóstico informático gratuito em Almada
 permalink: /diagnostico-gratuito/
-description: Diagnóstico informático gratuito para pequenas empresas em Almada, Seixal e Setúbal. Uma conversa sem compromisso para perceber onde a empresa perde tempo e dinheiro.
+description: Diagnóstico informático gratuito para pequenas empresas em Almada, Seixal e Setúbal. Uma conversa de 30 minutos, sem compromisso, sobre o que mais pesa no dia a dia e por onde começar.
 ---
 
-<p class="lead">Antes de propormos qualquer coisa, queremos perceber como a sua empresa trabalha. Este primeiro passo é <strong>gratuito e sem compromisso</strong>.</p>
+<p class="lead">Uma conversa de 30 minutos sobre o que, na sua opinião, teria maior impacto no dia a dia da empresa. É <strong>gratuita e sem compromisso</strong>.</p>
 
-## O que vemos consigo
+## Como é a conversa
 
-- **Onde perde tempo:** tarefas repetidas, papelada, informação escrita várias vezes.
-- **Quanto paga em programas:** que mensalidades tem, quantas pessoas as usam e o que usam de facto.
-- **O que já funciona bem:** não mudamos o que não precisa de ser mudado.
+Não é uma auditoria nem um questionário. Conte-nos o que lhe tira tempo, dá trabalho a repetir ou custa dinheiro todos os meses. Se quiser, falamos também dos programas que paga e do que usa deles.
 
-## O que recebe
+Do que ouvirmos, escolhemos consigo **o problema com maior impacto que dê para resolver em poucas semanas**. É esse o ponto de partida.
 
-Um resumo simples, em português claro, com:
+## O que acontece no fim
 
-1. Os 2 ou 3 problemas que mais lhe custam.
-2. O que propomos para cada um — e o que **não** vale a pena fazer.
-3. Um preço fechado e um prazo, se decidir avançar.
+1. Ficamos os dois a saber qual é o problema por onde começar.
+2. Dizemos-lhe se e como o podemos ajudar — e o que **não** vale a pena fazer.
+3. Se quiser avançar, combinamos o primeiro passo: o que inclui e quanto custa.
 
-Se acharmos que não o podemos ajudar, dizemos-lhe com franqueza.
+Depois de o primeiro passo estar feito, decidimos juntos o que vem a seguir, ou se vem alguma coisa. Se acharmos que não o podemos ajudar, dizemos-lhe com franqueza.
 
 ## Como funciona
 
-Uma primeira conversa de 30 minutos (por telefone, vídeo ou presencialmente na zona de Lisboa e Setúbal). Depois, se fizer sentido, passamos algum tempo a ver o seu dia a dia de perto.
+Uma primeira conversa de 30 minutos (por telefone, vídeo, no nosso escritório em Charneca da Caparica, por marcação, ou presencialmente na zona de Lisboa e Setúbal). Depois, se fizer sentido, passamos algum tempo a ver o seu dia a dia de perto.

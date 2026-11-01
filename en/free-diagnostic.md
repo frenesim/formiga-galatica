@@ -5,27 +5,25 @@ locale: en_GB
 alt_url: /diagnostico-gratuito/
 title: Free IT diagnostic in Almada, Portugal
 permalink: /en/free-diagnostic/
-description: Free IT diagnostic for small businesses in Almada, Seixal and Setúbal. A no-strings conversation to find where your business loses time and money.
+description: Free IT diagnostic for small businesses in Almada, Seixal and Setúbal. A 30-minute, no-strings conversation about what weighs most day to day and where to start.
 ---
 
-<p class="lead">Before we propose anything, we want to understand how your business works. This first step is <strong>free and with no commitment</strong>.</p>
+<p class="lead">A 30-minute conversation about what you think would make the biggest difference to your business day to day. It's <strong>free and with no commitment</strong>.</p>
 
-## What we look at with you
+## What the conversation is like
 
-- **Where you lose time:** repeated tasks, paperwork, information typed in several places.
-- **What you pay for software:** which subscriptions you have, how many people use them and what they actually use.
-- **What already works:** we don't change what doesn't need changing.
+It's not an audit or a questionnaire. Tell us what takes your time, is tedious to repeat or costs you money every month. If you like, we also talk about the software you pay for and what you use of it.
 
-## What you get
+From what we hear, we pick with you **the problem with the biggest impact that can be solved in a few weeks**. That's the starting point.
 
-A short, plain-language summary with:
+## What happens at the end
 
-1. The 2 or 3 problems costing you the most.
-2. What we suggest for each — and what is **not** worth doing.
-3. A fixed price and a deadline, if you decide to go ahead.
+1. We both know which problem to start with.
+2. We tell you whether and how we can help — and what is **not** worth doing.
+3. If you want to go ahead, we agree the first step: what it includes and what it costs.
 
-If we don't think we can help, we'll tell you honestly.
+Once the first step is done, we decide together what comes next, or whether anything does. If we don't think we can help, we'll tell you honestly.
 
 ## How it works
 
-A first 30-minute conversation (phone, video, or in person around Lisbon and Setúbal). Then, if it makes sense, we spend some time looking at your day-to-day up close.
+A first 30-minute conversation (phone, video, at our office in Charneca da Caparica by appointment, or in person around Lisbon and Setúbal). Then, if it makes sense, we spend some time looking at your day-to-day up close.
