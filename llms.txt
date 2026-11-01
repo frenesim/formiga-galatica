@@ -4,16 +4,16 @@ sitemap: false
 ---
 # Formiga Galática
 
-> Consultoria informática em Almada (Charneca da Caparica), Portugal, para pequenas empresas da Margem Sul e do distrito de Setúbal. Cria ferramentas de software feitas à medida que substituem folhas de Excel, papelada e mensalidades de programas, com entrega em semanas e preço fechado. A ferramenta fica propriedade do cliente.
+> Consultoria informática em Almada (Charneca da Caparica), Portugal, para pequenas empresas da Margem Sul e do distrito de Setúbal. Cria ferramentas de software feitas à medida que substituem folhas de Excel, papelada e mensalidades de programas, começando pelo problema que dê para resolver em poucas semanas e crescendo a partir daí. A ferramenta fica propriedade do cliente.
 
-IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, delivered in weeks at a fixed price. The client owns the tool.
+IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, starting with the problem that can be solved in a few weeks and growing from there. The client owns the tool.
 
 ## Empresa / Company
 
 - Nome legal: {{ site.company.legal_name }}
 - NIPC: {{ site.company.nipc }}
 - Morada: {{ site.company.street }}, {{ site.company.postal_code }} {{ site.company.locality }}, {{ site.company.city }}, Portugal
-- Área de atuação: Almada, Seixal, Barreiro, Setúbal, Sesimbra, Lisboa (presencial) e todo o país (remoto)
+- Área de atuação: Almada, Seixal, Barreiro, Setúbal, Sesimbra, Lisboa (presencial) e todo o país (remoto); escritório em Charneca da Caparica, por marcação
 - Línguas: português, inglês
 - Fundador: Humberto Pinto — formado em Matemática (Universidade NOVA de Lisboa), mais de 20 anos entre banca e desenvolvimento de software (Ruby on Rails), ex-engenheiro de software na Intruder (cibersegurança).
 
@@ -25,9 +25,9 @@ IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, 
 
 ## Como trabalha / How it works
 
-1. Diagnóstico gratuito e sem compromisso.
-2. Proposta com preço fechado e prazo.
-3. Entrega rápida, em ciclos curtos (semanas).
+1. Conversa gratuita de 30 minutos, sem compromisso, sobre o que mais pesa no dia a dia da empresa; escolhe-se o problema com maior impacto que dê para resolver em poucas semanas.
+2. Começa-se por esse problema, com uma primeira ferramenta pequena, entregue em poucas semanas; combina-se o que inclui e quanto custa antes de começar.
+3. A partir daí cresce-se um problema de cada vez, se fizer sentido.
 4. A ferramenta fica do cliente, sem mensalidades obrigatórias por utilizador; manutenção opcional.
 
 ## Projetos / Portfolio
