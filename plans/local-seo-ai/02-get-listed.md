@@ -4,11 +4,11 @@ Owner: Humberto. Use exactly the NAP from `00-index.md` everywhere. Paste-ready 
 
 ## Tasks
 
-- [x] **Fix the business phone line (blocker)** — resolved 2026-10-21 by switching the site to +351 911 045 538 (still to test: call, SMS, WhatsApp and the `wa.me` button). Old line +351 910 193 681 (eSIM, WhatsApp Business) sends but doesn't receive calls, SMS or WhatsApp messages. Check before creating listings:
+- [x] **Fix the business phone line (blocker)** — resolved 2026-10-21 by switching the site to +351 911 045 538 (tested end to end by Humberto 2026-11-02). Old line +351 910 193 681 (eSIM, WhatsApp Business) sends but doesn't receive calls, SMS or WhatsApp messages. Check before creating listings:
   - [ ] Is the number registered on the **WhatsApp Business Platform / Cloud API** (e.g. via a Meta developer app or webhook)? A Cloud API number can't be used in the WhatsApp app at the same time, and incoming messages go to the webhook, not the phone. If so, either remove it from the API (Meta Business Manager → WhatsApp Manager → delete number) and register it in the WhatsApp Business app, or keep the API and make sure the webhook stores/forwards messages.
   - [ ] With the operator: is the eSIM plan active for **incoming** voice/SMS (some digital/data or virtual numbers are outbound-only), and is call forwarding or "do not disturb"/call barring off? Test by calling and texting from another phone with WhatsApp closed.
   - [ ] Phone settings: the eSIM line is enabled for calls/SMS (dual-SIM default line), not just data.
-  - [ ] Test end to end from another phone: call, SMS, WhatsApp, and the site's WhatsApp button (`wa.me` link).
+  - [x] Test end to end from another phone: call, SMS, WhatsApp, and the site's WhatsApp button (`wa.me` link). Done by Humberto 2026-11-02.
   - [ ] Until fixed: decide whether to hide the phone/WhatsApp from the site and keep email + Calendly + form only.
 
 - [ ] **Google Business Profile** — created 2026-10-31 under formigagalatica@gmail.com; most important item for "informática Almada"-type searches (map results). Address **shown** (decided 2026-11-01: clients can visit the office by appointment).

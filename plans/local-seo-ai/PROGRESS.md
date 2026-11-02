@@ -6,7 +6,7 @@ Status: `todo` · `doing` · `done` · `blocked`
 |---|---|---|
 | 1. Technical fixes | done | Rich-results test all green 2026-10-31 |
 | 2. Get listed | doing | Started 2026-10-31. GBP waiting for video review (uploaded 2026-11-02). Bing/Apple not started. Copy in [02a-listing-copy.md](02a-listing-copy.md) |
-| 3. Content | todo | FAQ prices depend on the pricing model |
+| 3. Content | doing | FAQ + 3 sector pages written 2026-11-02. Location pages and case studies wait for Humberto's input |
 | 4. Reputation | todo | |
 | 5. Measurement | todo | First baseline run after phase 1 |
 
@@ -16,6 +16,9 @@ Status: `todo` · `doing` · `done` · `blocked`
 
 ## Log
 
+- 2026-11-02 — Markdown twins: `_plugins/markdown_twins.rb` writes a `.md` version of every page and note at build time (`/page/` → `/page.md`, `/` → `/index.md`, `/en/` → `/en.md`; 18 files), advertised with `<link rel="alternate" type="text/markdown">` and explained in `llms.txt`. New gem `reverse_markdown`. After the first deploy: check the `.md` URLs return 200 and a sensible Content-Type, and watch Search Console for `.md` URLs being indexed. Not yet committed.
+- 2026-11-02 — Phase 3 started: FAQ (PT/EN, FAQPage JSON-LD from front matter), three sector pages (offices/accountants, workshops/construction, short-term rentals) and EN twins, links from home ("Para quem é"), footer FAQ link, `llms.txt`. Built locally, not yet committed. Blocked on Humberto: location pages (need real local facts), case studies (need results/quotes), FAQ answers on closure/source code, e-Fatura/SAF-T, hosting, price range.
+- 2026-11-02 — Pushed to main (9d63e4a; deploys via Pages): office-by-appointment line, new way-of-working copy, rewritten 16 November note, plans. Phone +351 911 045 538 tested end to end by Humberto.
 - 2026-11-02 — Humberto uploaded the Google Business Profile verification video. Profile status in the manager now shows "Processing" (checked 2026-11-02); I don't know how long Google's review takes. Plan reviewed: GBP task rewritten (address shown, post-approval checklist), Bing Webmaster Tools can go ahead now, Bing Places and Apple wait for GBP, phase 3 FAQ notes updated for the new way of working. Still untested: phone end to end. Still uncommitted: all changes since f0b0fc0.
 - 2026-11-01 — Way of working changed: no more "analysis → proposal with fixed price and date". The free diagnostic is a focused 30-minute conversation on what the visitor thinks would have the biggest impact; we pick the biggest problem solvable in a few weeks, start there and grow. Also rewrote the 2026-11-16 post (questions now: price and what it includes / start small / can stop after first step / ownership and monthly fees / after delivery / real work; "E nós?" matches the new concept) and its LinkedIn caption. Rewritten in PT/EN home ("Como trabalhamos", diagnostic section), diagnostic pages, `llms.txt` and `02a-listing-copy.md`. **Google Business Profile still has the OLD description and services text ("proposta com preço fechado e prazo") — update after verification.** Not yet committed.
 - 2026-11-01 — Decision: address stays visible on Google/Bing/Apple. Clients can visit the office (first door of the house) by appointment. Site updated to say so: "no nosso escritório em Charneca da Caparica, por marcação" in `diagnostico-gratuito.md`, EN twin in `en/free-diagnostic.md`, and `llms.txt`. Not yet committed.
