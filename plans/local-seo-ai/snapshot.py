@@ -107,7 +107,7 @@ def main():
     out += ["", f"## Sitemap ({len(urls)} URLs)", ""] + [f"- {u}" for u in urls]
 
     out += ["", "## Files", "", "| Path | Status |", "|---|---|"]
-    for path in ["/robots.txt", "/llms.txt", "/sitemap.xml", "/feed.xml", "/404.html", "/this-page-does-not-exist/"]:
+    for path in ["/robots.txt", "/llms.txt", "/sitemap.xml", "/feed.xml", "/index.md", "/en.md", "/diagnostico-gratuito.md", "/404.html", "/this-page-does-not-exist/"]:
         out.append(f"| {path} | {fetch(SITE + path)[0]} |")
 
     out += ["", "## Pages", ""]

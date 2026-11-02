@@ -20,6 +20,10 @@ Website for FORMIGAGALÁCTICA – Consultoria Informática, Lda (brand: **Formig
 - Style is Basecamp/37signals-plain: bold type, one accent colour, no stock images. Colours are CSS variables in `assets/css/style.css` with a dark-mode override.
 - `timezone: Europe/Lisbon` in `_config.yml` matters: CI builds in UTC and would otherwise skip same-day posts as "future".
 
+## Markdown twins
+
+`_plugins/markdown_twins.rb` writes a `.md` version of every page and note at build time (`/diagnostico-gratuito/` → `/diagnostico-gratuito.md`, `/` → `/index.md`, `/en/` → `/en.md`), converted from the same rendered content as the HTML so agents can read the site without parsing it. It runs only because the site is built by the GitHub Actions workflow (custom plugins are not allowed in GitHub's default Pages build). Each HTML page advertises its twin with `<link rel="alternate" type="text/markdown">` and `llms.txt` explains the convention. New pages need nothing extra: any page with a layout and a URL ending in `/`, and every note, gets a twin.
+
 ## Plans
 
 Multi-step work lives in `plans/{plan-reference}/`: `00-index.md` (goal, baseline, phase table), numbered phase files with checkbox tasks, and `PROGRESS.md` (status table + dated log). Tick checkboxes and add a log line when a task is done. `plans/` is excluded from the Jekyll build.

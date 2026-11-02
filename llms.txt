@@ -8,6 +8,10 @@ sitemap: false
 
 IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, starting with the problem that can be solved in a few weeks and growing from there. The client owns the tool.
 
+## Versão em Markdown / Markdown version
+
+Cada página e cada nota tem uma versão em Markdown, sem HTML: acrescente `.md` ao endereço sem a barra final. Exemplos: `/diagnostico-gratuito/` → `/diagnostico-gratuito.md`; a página inicial é `/index.md` e a inglesa é `/en.md`. / Every page and note has an HTML-free Markdown version: add `.md` to the address without the trailing slash. The home page is `/index.md` and the English one is `/en.md`.
+
 ## Empresa / Company
 
 - Nome legal: {{ site.company.legal_name }}
