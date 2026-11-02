@@ -7,3 +7,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-sitemap"
 end
+
+gem "reverse_markdown", "~> 3.0"

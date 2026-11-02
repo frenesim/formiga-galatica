@@ -10,6 +10,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo %}
   {% feed_meta %}
+  {%- assign last_char = page.url | slice: -1 %}
+  {%- if last_char == "/" %}
+  <link rel="alternate" type="text/markdown" href="{% if page.url == '/' %}/index.md{% else %}{{ page.url | split: '/' | join: '/' }}.md{% endif %}">
+  {%- endif %}
   {%- if page.alt_url %}
   {%- if page.lang == "en" %}{% assign pt_url = page.alt_url %}{% assign en_url = page.url %}{% else %}{% assign pt_url = page.url %}{% assign en_url = page.alt_url %}{% endif %}
   <link rel="alternate" hreflang="pt-PT" href="{{ pt_url | absolute_url }}">
