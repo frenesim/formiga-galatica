@@ -14,7 +14,7 @@ Make the site readable by AI crawlers and tell search engines it's a local busin
 - [x] **Share image** (1200×630) for WhatsApp/LinkedIn previews, set as `image` in `_config.yml` (Claude).
 - [x] **`llms.txt`** at the site root: plain-text summary of who we are, services, area served, portfolio, contacts (Claude).
 - [x] **`robots.txt`** explicitly allowing all crawlers and pointing to the sitemap (Claude).
-- [ ] Validate with Google's [Rich Results Test](https://search.google.com/test/rich-results) and [Schema validator](https://validator.schema.org/) (Claude).
+- [x] (all green, 2026-10-31) Validate with Google's [Rich Results Test](https://search.google.com/test/rich-results) and [Schema validator](https://validator.schema.org/) (Claude).
 
 ## Decisions
 

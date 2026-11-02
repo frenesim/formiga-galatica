@@ -107,10 +107,10 @@ Link: https://formiga.galaticos.pt/notas/o-que-perguntar-antes-de-pedir-uma-ferr
 
 Seis perguntas para fazer a quem propõe uma ferramenta feita à medida (a nós incluídos):
 
-1. Qual é o preço, e é fechado?
-2. Quando fica pronto?
-3. A ferramenta fica sua?
-4. Há mensalidades obrigatórias?
+1. Qual é o preço, e o que inclui?
+2. Dá para começar por uma parte pequena?
+3. Dá para parar depois do primeiro passo?
+4. A ferramenta fica sua, e há mensalidades obrigatórias?
 5. Quem trata dos problemas depois da entrega?
 6. Dá para ver trabalho real?
 

@@ -17,12 +17,12 @@ Each needs content specific to the town (local clients, sectors common there, ho
 - [ ] "Software para alojamento local" — backed by Agile Booking (AIMA guest reports, calendar sync).
 
 ### FAQ (with FAQPage structured data)
-- [ ] Quanto custa um programa feito à medida? *(needs price ranges → decide pricing model)*
-- [ ] Quanto tempo demora?
+- [ ] Quanto custa um programa feito à medida? *(needs price ranges for a first step → decide pricing model, now that we start small and grow)*
+- [ ] Quanto tempo demora um primeiro passo? *("poucas semanas" — no fixed date promised)*
 - [ ] O programa fica meu? E se a Formiga Galática fechar?
 - [ ] Funciona com o meu programa de faturação / e-Fatura / SAF-T?
 - [ ] Preciso de comprar computadores ou servidores?
-- [ ] Como funciona o diagnóstico gratuito?
+- [ ] Como funciona o diagnóstico gratuito? *(a focused 30-minute conversation about the biggest impact; see the rewritten `diagnostico-gratuito.md`)*
 
 ### Case studies (one page each)
 - [ ] Tekclean — problem → solution → result, ideally with a number and an owner quote.
