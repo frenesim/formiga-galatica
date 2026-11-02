@@ -1,6 +1,8 @@
 pt:
   home_url: /
   diag_url: /diagnostico-gratuito/
+  faq_url: /perguntas-frequentes/
+  faq_label: Perguntas frequentes
   notes_url: /notas/
   other_lang: en
   nav_diag: Diagnóstico grátis
@@ -22,6 +24,8 @@ pt:
 en:
   home_url: /en/
   diag_url: /en/free-diagnostic/
+  faq_url: /en/faq/
+  faq_label: FAQ
   notes_url: /notas/
   other_lang: pt
   nav_diag: Free diagnostic

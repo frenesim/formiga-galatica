@@ -19,6 +19,15 @@
   {%- if page.url == "/" or page.url == "/en/" %}
   {% include schema.html %}
   {%- endif %}
+  {%- if page.faq %}
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+    {%- for f in page.faq %}
+    {"@type": "Question", "name": {{ f.q | jsonify }}, "acceptedAnswer": {"@type": "Answer", "text": {{ f.a | jsonify }}}}{% unless forloop.last %},{% endunless %}
+    {%- endfor %}
+  ]}
+  </script>
+  {%- endif %}
 </head>
 <body>
   {% include header.html t=t %}
