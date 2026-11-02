@@ -155,3 +155,90 @@ form input:focus, form textarea:focus { outline: none; border-color: var(--accen
 .slogan-q { font-size: clamp(1.2rem, 3vw, 1.5rem); margin: 0 0 .75rem; opacity: .8; }
 .slogan-a { font-size: clamp(1.9rem, 5.5vw, 3rem); font-weight: 900; line-height: 1.15; letter-spacing: -0.02em; margin: 0; }
 .slogan mark { background: var(--band-mark); color: var(--band-mark-ink); }
+
+/* Background decoration
+   Faded shapes behind the content: brand-tinted masks (so they follow light/dark),
+   kept mostly in the side margins and very low contrast so the text stays first. */
+:root {
+  --deco-stars: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><circle cx='170' cy='82' r='2'/><circle cx='338' cy='29' r='1.2'/><circle cx='279' cy='53' r='1.6'/><circle cx='303' cy='34' r='2.6'/><circle cx='114' cy='24' r='1.2'/><circle cx='227' cy='219' r='1.2'/><circle cx='128' cy='51' r='2.6'/><circle cx='222' cy='35' r='2.6'/><circle cx='68' cy='119' r='2.6'/><circle cx='36' cy='300' r='2.6'/><circle cx='208' cy='30' r='1.2'/><circle cx='28' cy='290' r='1.2'/><circle cx='153' cy='219' r='1.2'/><circle cx='281' cy='65' r='2.6'/><circle cx='162' cy='291' r='1.2'/><circle cx='57' cy='302' r='2.6'/><circle cx='332' cy='101' r='1.6'/><circle cx='54' cy='285' r='1.2'/><circle cx='110' cy='259' r='2.6'/><circle cx='223' cy='165' r='2'/><circle cx='304' cy='237' r='1.6'/><circle cx='158' cy='132' r='1.2'/><circle cx='362' cy='129' r='1.2'/><circle cx='299' cy='158' r='2.6'/><circle cx='258' cy='180' r='2'/><path d='M90 166Q92 178 104 180Q92 182 90 194Q88 182 76 180Q88 178 90 166Z'/><path d='M340 310Q341.5 318 350 320Q341.5 322 340 330Q338.5 322 330 320Q338.5 318 340 310Z'/></svg>");
+  --deco-planet: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'><circle cx='200' cy='200' r='92'/><ellipse cx='200' cy='200' rx='185' ry='52' transform='rotate(-18 200 200)' fill='none' stroke='black' stroke-width='9'/><ellipse cx='200' cy='200' rx='150' ry='38' transform='rotate(-18 200 200)' fill='none' stroke='black' stroke-width='2' stroke-dasharray='1 10' stroke-linecap='round'/><circle cx='42' cy='252' r='12'/></svg>");
+  --deco-orbit: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400' fill='none' stroke='black'><circle cx='200' cy='200' r='190' stroke-width='3'/><circle cx='200' cy='200' r='135' stroke-width='3' stroke-dasharray='2 12' stroke-linecap='round'/><circle cx='200' cy='200' r='80' stroke-width='3'/><circle cx='200' cy='200' r='26' fill='black' stroke='none'/><circle cx='334' cy='105' r='14' fill='black' stroke='none'/><circle cx='105' cy='256' r='8' fill='black' stroke='none'/></svg>");
+  --deco-wheel: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200' fill='none' stroke='black'><circle cx='100' cy='100' r='90' stroke-width='11'/><circle cx='100' cy='100' r='75' stroke-width='3'/><circle cx='100' cy='100' r='15' fill='black' stroke='none'/><path stroke-width='6' stroke-linecap='round' d='M100 25V175M25 100H175M47 47 153 153M153 47 47 153'/></svg>");
+  --deco-trail: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 160'><defs><g id='a' stroke='black' stroke-width='1.6' stroke-linecap='round' fill='none'><path d='M-2 0-9-9M-2 0-2-10M-2 0 5-9M-2 0-9 9M-2 0-2 10M-2 0 5 9M9-2 16-8M9 2 16 8'/><ellipse cx='-14' cy='0' rx='8' ry='5.5' fill='black' stroke='none'/><ellipse cx='-2' cy='0' rx='4' ry='3' fill='black' stroke='none'/><circle cx='7' cy='0' r='4.5' fill='black' stroke='none'/></g></defs><path d='M-10 125C150 125 200 45 360 62S600 140 712 74' fill='none' stroke='black' stroke-width='3.5' stroke-dasharray='0 13' stroke-linecap='round'/><use href='%23a' transform='translate(372 63) rotate(4) scale(1.15)'/><use href='%23a' transform='translate(735 61) rotate(-30) scale(1.3)'/></svg>");
+  --deco-ant: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><g transform='rotate(-15 50 50) translate(100 0) scale(-1 1)'><path d='M49 60 40 74 35 88 28 89M55 62 56 77 54 90 47 91M61 61 70 75 77 88 70 89' stroke='black' stroke-linecap='round' stroke-linejoin='round' fill='none' stroke-width='4'/><ellipse cx='53' cy='55' rx='9' ry='7'/><ellipse cx='76' cy='60' rx='15' ry='12'/><circle cx='30' cy='46' r='17' fill-opacity='.3'/><path d='M27 40 21 14M34 39 43 16' stroke='black' stroke-width='3.5' stroke-linecap='round' fill='none'/><circle cx='21' cy='13' r='3'/><circle cx='43' cy='15' r='3'/><circle cx='30' cy='46' r='17' fill='none' stroke='black' stroke-width='4.5'/></g></svg>");
+  --deco-dots: radial-gradient(circle, #000 1.3px, transparent 1.6px) 0 0 / 22px 22px;
+}
+
+section { position: relative; isolation: isolate; overflow: clip; }
+.hero::before, .hero::after,
+.alt::before, .slogan::before, .slogan::after,
+.deco-orbit::before, .deco-trail::after, .deco-ant::after,
+.contact::before {
+  content: ""; position: absolute; z-index: -1; pointer-events: none;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-size: contain; mask-size: contain;
+  -webkit-mask-position: center; mask-position: center;
+}
+
+/* Hero: a scatter of stars fading out from the top right, and a ringed planet in the corner */
+.hero::before {
+  inset: 0; background: var(--ink); opacity: .14;
+  -webkit-mask: var(--deco-stars) 0 0 / 400px 400px repeat, radial-gradient(ellipse at 85% 10%, #000 0, transparent 60%);
+  mask: var(--deco-stars) 0 0 / 400px 400px repeat, radial-gradient(ellipse at 85% 10%, #000 0, transparent 60%);
+  -webkit-mask-composite: source-in; mask-composite: intersect;
+}
+.hero::after {
+  width: 34rem; height: 34rem; top: -9rem; right: max(-12rem, calc(50% - 46rem));
+  background: var(--accent); opacity: .09; -webkit-mask-image: var(--deco-planet); mask-image: var(--deco-planet);
+}
+
+/* Soft sections: a dot grid that fades away from one corner */
+.alt::before {
+  inset: 0; background: var(--ink); opacity: .16;
+  -webkit-mask: var(--deco-dots), radial-gradient(ellipse at 100% 0, #000 0, transparent 55%);
+  mask: var(--deco-dots), radial-gradient(ellipse at 100% 0, #000 0, transparent 55%);
+  -webkit-mask-composite: source-in; mask-composite: intersect;
+}
+.alt.deco-flip::before {
+  -webkit-mask: var(--deco-dots), radial-gradient(ellipse at 0 100%, #000 0, transparent 55%);
+  mask: var(--deco-dots), radial-gradient(ellipse at 0 100%, #000 0, transparent 55%);
+  -webkit-mask-composite: source-in; mask-composite: intersect;
+}
+
+/* Slogan band: two wheels, slowly turning */
+.slogan::before, .slogan::after { background: var(--band-ink); opacity: .07; -webkit-mask-image: var(--deco-wheel); mask-image: var(--deco-wheel); }
+.slogan::before { width: 22rem; height: 22rem; right: max(-8rem, calc(50% - 40rem)); top: 50%; margin-top: -11rem; animation: deco-spin 60s linear infinite; }
+.slogan::after { width: 9rem; height: 9rem; left: max(-3rem, calc(50% - 36rem)); bottom: -3rem; animation: deco-spin 30s linear infinite reverse; }
+@keyframes deco-spin { to { transform: rotate(360deg); } }
+
+/* Plain sections */
+.deco-orbit::before {
+  width: 26rem; height: 26rem; left: max(-14rem, calc(50% - 44rem)); top: 50%; margin-top: -13rem;
+  background: var(--accent); opacity: .08; -webkit-mask-image: var(--deco-orbit); mask-image: var(--deco-orbit);
+}
+.deco-trail::after {
+  width: min(56rem, 120%); height: 11rem; left: 50%; bottom: -1rem; transform: translateX(-50%);
+  background: var(--ink); opacity: .1; -webkit-mask-image: var(--deco-trail); mask-image: var(--deco-trail);
+}
+.deco-ant::after {
+  width: 22rem; height: 22rem; right: max(-8rem, calc(50% - 44rem)); bottom: 1rem; transform: rotate(-8deg);
+  background: var(--accent); opacity: .08; -webkit-mask-image: var(--deco-ant); mask-image: var(--deco-ant);
+}
+
+/* Contact (every page): the ant trail leads into the form */
+.contact::before {
+  width: min(56rem, 120%); height: 9rem; left: 50%; top: -1.5rem; transform: translateX(-50%) scaleY(-1);
+  background: var(--ink); opacity: .08; -webkit-mask-image: var(--deco-trail); mask-image: var(--deco-trail);
+}
+
+/* On narrow screens the shapes sit behind the text, so make them quieter */
+@media (max-width: 760px) {
+  .hero::after { width: 22rem; height: 22rem; top: -7rem; right: -9rem; opacity: .07; }
+  .slogan::before { width: 16rem; height: 16rem; margin-top: -8rem; right: -7rem; }
+  .slogan::after { display: none; }
+  .deco-orbit::before { width: 18rem; height: 18rem; margin-top: -9rem; left: -10rem; opacity: .06; }
+  .deco-ant::after { width: 15rem; height: 15rem; right: -5rem; bottom: 0; opacity: .06; }
+  .deco-trail::after, .contact::before { opacity: .06; }
+}
+@media (prefers-reduced-motion: reduce) { .slogan::before, .slogan::after { animation: none; } }
+@media print { section::before, section::after { display: none !important; } }
