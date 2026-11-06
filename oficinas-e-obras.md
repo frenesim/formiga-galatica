@@ -4,7 +4,7 @@ lang: pt
 alt_url: /en/workshops-and-construction/
 title: "Orçamentos e obras para oficinas"
 permalink: /oficinas-e-obras/
-description: "Ferramentas feitas à medida para oficinas, construção e manutenção em Almada e Setúbal: orçamentos mais rápidos, acompanhamento de obras, horas e materiais."
+description: "Ferramentas feitas à medida para oficinas, construção e manutenção: orçamentos mais rápidos, acompanhamento de obras, horas e materiais. Presencialmente em Almada, Seixal, Barreiro, Setúbal, Sesimbra e Lisboa; à distância em todo o país."
 ---
 
 <p class="lead">Em oficinas, construção, reparações, manutenção e pequenas fábricas, o orçamento, a obra e a fatura falam do mesmo trabalho, mas costumam estar em sítios diferentes. Fazemos ferramentas simples, à medida, para que os dados se escrevam uma vez.</p>

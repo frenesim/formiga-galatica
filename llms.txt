@@ -4,9 +4,9 @@ sitemap: false
 ---
 # Formiga Galática
 
-> Consultoria informática em Almada (Charneca da Caparica), Portugal, para pequenas empresas da Margem Sul e do distrito de Setúbal. Cria ferramentas de software feitas à medida que substituem folhas de Excel, papelada e mensalidades de programas, começando pelo problema que dê para resolver em poucas semanas e crescendo a partir daí. A ferramenta fica propriedade do cliente.
+> Consultoria informática em Almada (Charneca da Caparica), Portugal, para pequenas empresas, presencialmente em Almada, Seixal, Barreiro, Setúbal, Sesimbra e Lisboa, e à distância em todo o país. Cria ferramentas de software feitas à medida que substituem folhas de Excel, papelada e mensalidades de programas, começando pelo problema que dê para resolver em poucas semanas e crescendo a partir daí. A ferramenta fica propriedade do cliente.
 
-IT consultancy in Almada, Portugal, serving small businesses in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, starting with the problem that can be solved in a few weeks and growing from there. The client owns the tool.
+IT consultancy in Almada, Portugal, serving small businesses in person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon, and remotely anywhere in Portugal. Builds made-to-measure software tools that replace spreadsheets, paperwork and software subscriptions, starting with the problem that can be solved in a few weeks and growing from there. The client owns the tool.
 
 ## Versão em Markdown / Markdown version
 

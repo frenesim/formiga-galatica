@@ -5,7 +5,7 @@ locale: en_GB
 alt_url: /escritorios-e-contabilistas/
 title: "Software for accountants and offices"
 permalink: /en/offices-and-accountants/
-description: "Simple made-to-measure tools for accounting firms, law offices, clinics and estate agents in Almada and Setúbal: client documents, appointments, client records and reports."
+description: "Simple made-to-measure tools for accounting firms, law offices, clinics and estate agents: client documents, appointments, client records and reports. In person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon; remotely anywhere in Portugal."
 ---
 
 <p class="lead">Accounting firms, law offices, clinics and estate agents have tasks that repeat every week: asking for documents, booking appointments, reminding people of dates, filling in client records, producing reports. We build simple, made-to-measure tools that take that repeated work off people's hands.</p>
