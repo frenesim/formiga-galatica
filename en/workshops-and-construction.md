@@ -5,7 +5,7 @@ locale: en_GB
 alt_url: /oficinas-e-obras/
 title: "Quotes and jobs for workshops"
 permalink: /en/workshops-and-construction/
-description: "Made-to-measure tools for workshops, construction and maintenance firms in Almada and Setúbal: faster quotes, job tracking, hours and materials."
+description: "Made-to-measure tools for workshops, construction and maintenance firms: faster quotes, job tracking, hours and materials. In person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon; remotely anywhere in Portugal."
 ---
 
 <p class="lead">In workshops, construction, repairs, maintenance and small factories, the quote, the job and the invoice are about the same piece of work, but they tend to live in different places. We build simple, made-to-measure tools so the data is typed once.</p>

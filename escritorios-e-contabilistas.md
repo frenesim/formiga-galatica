@@ -4,7 +4,7 @@ lang: pt
 alt_url: /en/offices-and-accountants/
 title: "Programa para contabilistas e escritórios"
 permalink: /escritorios-e-contabilistas/
-description: "Ferramentas simples, feitas à medida, para escritórios de contabilidade, advocacia, clínicas e imobiliárias em Almada e Setúbal: documentos dos clientes, marcações, fichas e relatórios."
+description: "Ferramentas simples, feitas à medida, para escritórios de contabilidade, advocacia, clínicas e imobiliárias: documentos dos clientes, marcações, fichas e relatórios. Presencialmente em Almada, Seixal, Barreiro, Setúbal, Sesimbra e Lisboa; à distância em todo o país."
 ---
 
 <p class="lead">Escritórios de contabilidade, advocacia, clínicas e imobiliárias têm tarefas que se repetem todas as semanas: pedir documentos, marcar, lembrar datas, preencher fichas, fazer relatórios. Fazemos ferramentas simples, à medida, para tirar esse trabalho repetido de cima das pessoas.</p>

@@ -5,7 +5,7 @@ locale: en_GB
 alt_url: /diagnostico-gratuito/
 title: Free IT diagnostic in Almada, Portugal
 permalink: /en/free-diagnostic/
-description: Free IT diagnostic for small businesses in Almada, Seixal and Setúbal. A 30-minute, no-strings conversation about what weighs most day to day and where to start.
+description: Free IT diagnostic for small businesses. A 30-minute, no-strings conversation about what weighs most day to day. In person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon, or remotely anywhere in Portugal.
 ---
 
 <p class="lead">A 30-minute conversation about what you think would make the biggest difference to your business day to day. It's <strong>free and with no commitment</strong>.</p>
@@ -26,4 +26,4 @@ Once the first step is done, we decide together what comes next, or whether anyt
 
 ## How it works
 
-A first 30-minute conversation (phone, video, at our office in Charneca da Caparica by appointment, or in person around Lisbon and Setúbal). Then, if it makes sense, we spend some time looking at your day-to-day up close.
+A first 30-minute conversation: in person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisbon, or remotely, by phone or video, anywhere in Portugal. We also receive clients at our office in Charneca da Caparica, by appointment. Then, if it makes sense, we spend some time looking at your day-to-day up close.

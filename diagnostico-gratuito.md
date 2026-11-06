@@ -4,7 +4,7 @@ lang: pt
 alt_url: /en/free-diagnostic/
 title: Diagnóstico informático gratuito em Almada
 permalink: /diagnostico-gratuito/
-description: Diagnóstico informático gratuito para pequenas empresas em Almada, Seixal e Setúbal. Uma conversa de 30 minutos, sem compromisso, sobre o que mais pesa no dia a dia e por onde começar.
+description: Diagnóstico informático gratuito para pequenas empresas. Uma conversa de 30 minutos, sem compromisso, sobre o que mais pesa no dia a dia. Presencialmente em Almada, Seixal, Barreiro, Setúbal, Sesimbra e Lisboa, ou à distância em todo o país.
 ---
 
 <p class="lead">Uma conversa de 30 minutos sobre o que, na sua opinião, teria maior impacto no dia a dia da empresa. É <strong>gratuita e sem compromisso</strong>.</p>
@@ -25,4 +25,4 @@ Depois de o primeiro passo estar feito, decidimos juntos o que vem a seguir, ou 
 
 ## Como funciona
 
-Uma primeira conversa de 30 minutos (por telefone, vídeo, no nosso escritório em Charneca da Caparica, por marcação, ou presencialmente na zona de Lisboa e Setúbal). Depois, se fizer sentido, passamos algum tempo a ver o seu dia a dia de perto.
+Uma primeira conversa de 30 minutos: presencialmente em Almada, Seixal, Barreiro, Setúbal, Sesimbra e Lisboa, ou à distância, por telefone ou vídeo, em todo o país. Também recebemos no nosso escritório em Charneca da Caparica, por marcação. Depois, se fizer sentido, passamos algum tempo a ver o seu dia a dia de perto.
