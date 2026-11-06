@@ -16,6 +16,7 @@ Status: `todo` · `doing` · `done` · `blocked`
 
 ## Log
 
+- 2026-11-06 — Service area made explicit: in-person in Almada, Seixal, Barreiro, Setúbal, Sesimbra and Lisboa, remote across Portugal. Applied to site description, home, diagnostic and sector pages (PT/EN), `llms.txt`, JSON-LD (`Country` Portugal in `areaServed`) and a contact-section line (`contact_area`). Committed on `dev` in two commits (d75c9d4, 8c5314f).
 - 2026-11-02 — Markdown twins: `_plugins/markdown_twins.rb` writes a `.md` version of every page and note at build time (`/page/` → `/page.md`, `/` → `/index.md`, `/en/` → `/en.md`; 18 files), advertised with `<link rel="alternate" type="text/markdown">` and explained in `llms.txt`. New gem `reverse_markdown`. After the first deploy: check the `.md` URLs return 200 and a sensible Content-Type, and watch Search Console for `.md` URLs being indexed. Not yet committed.
 - 2026-11-02 — Phase 3 started: FAQ (PT/EN, FAQPage JSON-LD from front matter), three sector pages (offices/accountants, workshops/construction, short-term rentals) and EN twins, links from home ("Para quem é"), footer FAQ link, `llms.txt`. Built locally, not yet committed. Blocked on Humberto: location pages (need real local facts), case studies (need results/quotes), FAQ answers on closure/source code, e-Fatura/SAF-T, hosting, price range.
 - 2026-11-02 — Pushed to main (9d63e4a; deploys via Pages): office-by-appointment line, new way-of-working copy, rewritten 16 November note, plans. Phone +351 911 045 538 tested end to end by Humberto.
