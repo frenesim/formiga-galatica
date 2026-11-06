@@ -2,6 +2,8 @@
 
 Run monthly. Expect Google movement in 4–12 weeks; AI answers usually follow once listings and reviews exist.
 
+Compare every month against the **Baseline 2026-11** table in [00-index.md](00-index.md).
+
 ## Monthly checklist
 
 - [ ] Search Console: queries with impressions, clicks, average position (note top 10 queries).

@@ -11,6 +11,35 @@
 - `sitemap.xml` exists (jekyll-sitemap). No hreflang, `og:locale` is `pt` (should be `pt_PT`), no share image, no `llms.txt`.
 - No Google Business Profile, Search Console, Bing or Apple listings.
 
+## Baseline 2026-11 (numbers to compare against)
+
+Take this snapshot before the listings and content start to move results, then repeat the same checks monthly in the "Monthly log" of [PROGRESS.md](PROGRESS.md). Keep queries, prompts and date ranges identical so the numbers are comparable. Leave a cell as `n/a` when the source has no data, and write "not mentioned" rather than leaving AI answers blank.
+
+Date taken: ____ · By: ____
+
+| Source | Measure | Baseline | Notes |
+|---|---|---|---|
+| Search Console (`galaticos.pt`) | Impressions, last 3 months | | Check the date picker for data older than 2026-10-31 |
+| Search Console | Clicks, last 3 months | | |
+| Search Console | Average position | | |
+| Search Console | Top 10 queries | | List them, with impressions |
+| Search Console | Pages indexed (of 9 in the sitemap) | | Pages report |
+| Business Profile insights | Searches, calls, website clicks, direction requests | `n/a` | Starts when the profile is verified (still pending, 2026-11-05) |
+| Google search (private window) | Position, or absent, for "informática Almada", "consultoria informática Setúbal", "programas à medida Almada" | | Add or change terms only by adding new rows |
+| Site visits (optional) | Visits per month | `n/a` | Only once an analytics tool is installed; no history before that |
+
+AI answers (prompts 1–5 in [05-measurement.md](05-measurement.md), run in a fresh or logged-out session):
+
+| Model | P1 | P2 | P3 | P4 | P5 | What it says about Formiga Galática, if anything |
+|---|---|---|---|---|---|---|
+| ChatGPT | | | | | | |
+| Claude | | | | | | |
+| Perplexity | | | | | | |
+| Gemini | | | | | | |
+| Copilot | | | | | | |
+
+Use `yes` or `no` in the P1–P5 cells.
+
 ## Phases
 
 | # | Phase | Owner | File |

@@ -13,7 +13,7 @@ Paste-ready text for Google Business Profile, Bing Places and Apple Business Con
 
 ## Decision before creating the Business Profile
 
-- **DECIDED 2026-11-01: show the address.** Clients can visit the office (first door of the house) by appointment. Keep Google as created (address shown); use the same on Bing and Apple, and state "by appointment" in hours/notes. The question below is kept for the record.
+- **DECIDED 2026-11-03: hide the address (service-area business).** The first verification video failed because a home office has no signage. Use the same choice on Bing and Apple. The earlier decision follows, kept for the record: ~~show the address.~~ Clients can visit the office (first door of the house) by appointment. Keep Google as created (address shown); use the same on Bing and Apple, and state "by appointment" in hours/notes. The question below is kept for the record.
 - **Show the address, or service-area business with the address hidden?** Rua Rogério Paulo, 14, Charneca da Caparica is the registered address. Show it only if clients can visit you there; otherwise choose "I deliver goods and services to my customers" and hide it. Decide, then use the same choice on Bing and Apple. (The site footer and JSON-LD show the registered address either way; that is a legal requirement and doesn't conflict.)
 
 ## Google account
