@@ -3,3 +3,5 @@ _site/
 .sass-cache/
 vendor/
 .bundle/
+# Private: plans live in ~/Projects/fg, never in this public repo
+plans/

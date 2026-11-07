@@ -15,11 +15,12 @@ Instructions for Claude Code working in this repository. Read `AGENTS.md` first:
 
 ## Commits
 
-- Split commits by task, following the phase or task in `plans/` when the work belongs to a plan.
+- Split commits by task, following the phase or task in the plan (`~/Projects/fg/plans/`) when the work belongs to one.
 - Write a short imperative subject line, then a body that says why the change was made.
 - Add the attribution trailers that Claude Code provides for the session.
-- Never rewrite or reset commits that already exist on `origin/main`.
+- Never rewrite or reset commits that already exist on `origin/main`. (Exception made once, on 2026-11-07, at Humberto's request: `plans/` was removed from all history.)
 
 ## Plans
 
+- Plans live in the private repo `~/Projects/fg/plans/`, never in this public repo. Commit plan changes there.
 - Tick finished checkboxes and add a dated log line in `PROGRESS.md`, as `AGENTS.md` describes.

@@ -26,4 +26,6 @@ Website for FORMIGAGALÁCTICA – Consultoria Informática, Lda (brand: **Formig
 
 ## Plans
 
-Multi-step work lives in `plans/{plan-reference}/`: `00-index.md` (goal, baseline, phase table), numbered phase files with checkbox tasks, and `PROGRESS.md` (status table + dated log). Tick checkboxes and add a log line when a task is done. `plans/` is excluded from the Jekyll build.
+Multi-step work lives **outside this repository**, in the private repo `~/Projects/fg`, under `plans/{plan-reference}/`: `00-index.md` (goal, baseline, phase table), numbered phase files with checkbox tasks, and `PROGRESS.md` (status table + dated log). Tick checkboxes and add a log line when a task is done.
+
+This repository is **public**. Never commit plans, company strategy, client data or anything else that shouldn't be public here; `plans/` is in `.gitignore` as a safety net. (Plans were removed from this repo's history on 2026-11-07.)
