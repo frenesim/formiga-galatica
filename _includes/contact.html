@@ -11,7 +11,7 @@
         <h3>{{ t.contact_other }}</h3>
         <ul class="plain">
           <li>💬 <a href="https://wa.me/{{ site.company.whatsapp }}?text={{ t.wa_text | uri_escape }}" target="_blank" rel="noopener">WhatsApp</a></li>
-          <li>✉️ <a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a></li>
+          <li>✉️ <!--email_off--><a href="mailto:{{ site.company.email }}">{{ site.company.email }}</a><!--/email_off--></li>
           <li>📞 <a href="tel:{{ site.company.phone | remove: ' ' }}">{{ site.company.phone }}</a></li>
         </ul>
       </div>
